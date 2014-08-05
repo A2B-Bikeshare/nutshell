@@ -97,7 +97,7 @@ type EntityS struct{
 }
 
 //APICall takes in APIS and marshals it into a JSON sent by HTTP to nutshell
-func ApiCall(call APIS, responce interface{}) {
+func ApiCall(call APIS, response interface{}) {
 
 	//Marshal APIS into a JSON for HTTP Body
 	var buf bytes.Buffer
